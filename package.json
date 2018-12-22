@@ -2,6 +2,9 @@
   "name": "ci-node-modules",
   "version": "0.1.0",
   "description": "Clean install node_modules using the appropriate installation command",
+  "bin": {
+    "ci-node-modules": "ci-node-modules.sh"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0"
   },
