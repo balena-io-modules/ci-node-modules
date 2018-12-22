@@ -1,0 +1,26 @@
+{
+  "name": "ci-node-modules",
+  "version": "0.0.1",
+  "description": "Clean install node_modules using the appropriate installation command",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/balena-io-modules/ci-node-modules.git"
+  },
+  "keywords": [
+    "ci",
+    "node_modules",
+    "npm",
+    "yarn",
+    "clean",
+    "install"
+  ],
+  "author": "Thodoris Greasidis <thodoris@balena.io>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/balena-io-modules/ci-node-modules/issues"
+  },
+  "homepage": "https://github.com/balena-io-modules/ci-node-modules#readme"
+}
