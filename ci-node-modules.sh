@@ -14,7 +14,7 @@ if [ -f "yarn.lock" ]; then
 	echo "yarn.lock found."
 	rmNodeModules
 	echo "Running yarn install ..."
-	yarn install
+	yarn install --frozen-lockfile
 	exit 0
 fi
 

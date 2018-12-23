@@ -20,7 +20,7 @@ This depends on `/bin/sh` pointing to a sensible shell, and on `npm` and/or
 This removes the need for you to remember or figure out the appropriate
 installation method for the dependencies of any project/module. In case you are
 switching between several projects who use different lock file types or no lock
-files at, having to figure out and run the appropriate command can be
+files at all, having to figure out and run the appropriate command can be
 counter-productive.
 
 Moreover this also does a clean install of the dependencies
