@@ -1,6 +1,6 @@
 {
   "name": "ci-node-modules",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Clean install node_modules using the appropriate installation command",
   "bin": {
     "ci-node-modules": "ci-node-modules.sh"
