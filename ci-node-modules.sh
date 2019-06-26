@@ -25,6 +25,12 @@ if [ -f "package-lock.json" ]; then
 	exit 0
 fi
 
+if [ -f "npm-shrinkwrap.json" ]; then
+	echo "npm-shrinkwrap.json found."
+	echo "Running npm ci ..."
+	npm ci
+	exit 0
+fi
 
 if [ -f "package.json" ]; then
 	echo "package.json found."
@@ -36,4 +42,5 @@ fi
 
 echo "yarn.lock **not** found!"
 echo "package-lock.json **not** found!"
+echo "npm-shrinkwrap.json **not** found!"
 echo "package.json **not** found!"
